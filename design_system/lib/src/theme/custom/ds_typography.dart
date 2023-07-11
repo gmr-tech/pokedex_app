@@ -7,11 +7,11 @@ part of 'ds_custom_theme.dart';
 @TailorComponent(themes: ['light', 'dark'])
 class _$DSTypography {
   //do the same with caption
-  static List<TextStyle> caption = [
-    DSBaseTypography.example.copyWith(
+  static List<TextStyle> pokemonID = [
+    DSBaseTypography.pokemonID.copyWith(
       color: DSConstColor.dark,
     ),
-    DSBaseTypography.example.copyWith(
+    DSBaseTypography.pokemonID.copyWith(
       color: DSConstColor.light,
     ),
   ];

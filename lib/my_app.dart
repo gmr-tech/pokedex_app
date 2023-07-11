@@ -4,7 +4,7 @@ import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'my_home_page.dart';
+import 'src/features/pokelist/presentation/pokelist_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           themeMode: themeController.themeMode,
           theme: DSTheme.lightThemeData,
           darkTheme: DSTheme.darkThemeData,
-          home: const MyHomePage(title: 'Flutter Demo Home Page'),
+          home: const PokeListPage(),
         ),
       ),
     );
