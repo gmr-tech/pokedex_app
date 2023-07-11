@@ -6,6 +6,9 @@
 // in the right way,
 // ignore_for_file: avoid-non-null-assertion
 
+// Dynamic is required for Extensions
+// ignore_for_file: avoid-dynamic
+
 part of 'ds_theme.dart';
 
 final ColorScheme _lightColorScheme = const ColorScheme.light().copyWith(

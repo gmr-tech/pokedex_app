@@ -1,4 +1,8 @@
+// Static members are required for Theme Tailor to work
 // ignore_for_file: avoid_classes_with_only_static_members
+
+// Global state is required for for Theme Tailor to work
+// ignore_for_file: avoid-global-state
 
 import 'package:flutter/material.dart';
 import 'package:theme_tailor_annotation/theme_tailor_annotation.dart';

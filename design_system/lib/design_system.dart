@@ -1,3 +1,4 @@
+/// All public components of design_system
 library design_system;
 
 export 'src/theme/base/ds_theme.dart';
