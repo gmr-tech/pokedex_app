@@ -1,6 +1,7 @@
 // ignore_for_file: public_member_api_docs
 
 import 'package:flutter/material.dart';
+import 'src/common/presentation/theme_switcher_button.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({
@@ -27,8 +28,10 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
+        actions: const [
+          ThemeSwitcherButton(),
+        ],
       ),
       body: Center(
         child: Column(
