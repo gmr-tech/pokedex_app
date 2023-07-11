@@ -87,4 +87,10 @@ class DSBaseTypography {
       fontSize: 12,
     ),
   );
+
+  static const TextStyle example = TextStyle(
+    fontFamily: poppinsFont,
+    fontWeight: FontWeight.w600,
+    fontSize: 18,
+  );
 }
