@@ -2,7 +2,6 @@
 
 part of 'ds_box_space.dart';
 
-
 enum DSBoxSpaceSize {
   xSmall,
   small,

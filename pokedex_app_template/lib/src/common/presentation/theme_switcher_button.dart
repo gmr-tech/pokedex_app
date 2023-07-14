@@ -16,7 +16,9 @@ class ThemeSwitcherButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // / O `Consumer` é um widget que permite acessar o valor do DSThemeController e reconstruir automaticamente o widget sempre que esse valor mudar.
+    /// O `Consumer` é um widget que permite acessar o valor do
+    /// DSThemeController e reconstruir automaticamente o widget
+    /// sempre que esse valor mudar.
     return Consumer<DSThemeController>(
       builder: (
         context,

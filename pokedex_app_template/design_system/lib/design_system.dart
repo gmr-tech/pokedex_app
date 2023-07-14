@@ -14,4 +14,4 @@ export 'src/widgets/box_space/ds_box_space.dart';
 //(classes, constantes, funções, etc.) do pacote para outros
 //pacotes ou arquivos.
 //Cada linha de exportação representa a exportação de um arquivo 
-//específico dentro do pacote "design_system". 
+//específico dentro do pacote "design_system".
